@@ -15,26 +15,26 @@ spec:
             backend:
               service:
                 name: posts-clusterip-srv
-                port:
+                port: 
                   number: 4000
           - path: /posts
             pathType: Prefix
             backend:
               service:
                 name: query-srv
-                port:
+                port: 
                   number: 4002
           - path: /posts/?(.*)/comments
             pathType: Prefix
             backend:
               service:
                 name: comments-srv
-                port:
+                port: 
                   number: 4001
           - path: /?(.*)
             pathType: Prefix
             backend:
               service:
                 name: client-srv
-                port:
+                port: 
                   number: 3000

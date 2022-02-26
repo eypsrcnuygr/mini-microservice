@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: eypsrcnuygr/mini_app_client:0.0.5
+          image: eypsrcnuygr/mini_app_client
 ---
 apiVersion: v1
 kind: Service
