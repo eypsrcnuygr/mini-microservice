@@ -1,6 +1,6 @@
 # Mini microservice
 
-This project is a blog project which uses micro-service structure in a minimal way. There are in total 5 backend service and one front-end. Those services have been created from the scratch.
+This project is a blog project which uses micro-service structure in a minimal way. There are in total 5 backend service and one front-end. Those services have been created from the scratch. Dockerized and with they are all organised Kubernetes.
 
 ## Built With
 * JavaScript
