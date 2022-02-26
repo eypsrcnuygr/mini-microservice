@@ -3,3 +3,4 @@
 /moderation/node_modules
 /posts/node_modules
 /query/node_modules
+/infra/k8s/posts.yaml.old
